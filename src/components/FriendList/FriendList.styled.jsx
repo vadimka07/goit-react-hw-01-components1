@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-
+import StatusBgColor from "../../helpers/statusBgColor";
 const FriendListContainer = styled.ul`
   display: grid;
   width: 350px;
@@ -36,10 +36,9 @@ const Image = styled.img`
   display: block;
 `;
 
-const statusBgColor = ( { isOnline } ) => isOnline ? "green" : "red";
 
 const Status = styled.span`
-  background-color: ${ statusBgColor };
+  background-color: ${ StatusBgColor };
   width: 25px;
   height: 25px;
   display: block;
