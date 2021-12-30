@@ -34,6 +34,6 @@ Profile.propTypes = {
 }
 
 Profile.defaultProps = {
-    user: PropTypes.shape( { avatar: logo } )
+    user:  { avatar: logo }
 }
 export default Profile;
