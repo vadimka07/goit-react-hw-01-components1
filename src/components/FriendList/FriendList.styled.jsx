@@ -36,7 +36,6 @@ const Image = styled.img`
   display: block;
 `;
 
-
 const Status = styled.span`
   background-color: ${ StatusBgColor };
   width: 25px;
